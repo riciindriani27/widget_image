@@ -7,11 +7,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
   return MaterialApp(
-    debugShowCheckedModeBanner: false,
+    // debugShowCheckedModeBanner: false,
     home: Scaffold(
       appBar: AppBar(
         title: Text("Image Widget Flutter"),
-        backgroundColor: Colors.blue[400],
+        backgroundColor: Colors.yellow[400],
       ),
       body: Center(
         child: Container(
